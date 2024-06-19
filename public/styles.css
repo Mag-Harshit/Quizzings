@@ -1,0 +1,176 @@
+
+.form-control{
+  width: 600px;
+  margin-bottom: 10px;
+}
+.description {
+  width: 1000px;
+}
+.title {
+  width: 900px;
+}
+
+.Noquiz{
+  height: 100vh;
+}
+
+.Noquiz > h1 {
+  color: gray;
+}
+
+.container-fluid{
+  min-height: 64px !important;
+}
+
+.profile{
+  border: 0;
+  background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+.signHeading {
+  color: #403754;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-family:'Roboto';
+    font-size: 40px;
+}
+
+.emailEntry{
+  margin: 10px;
+  width: 35%;
+
+}
+.passwordEntry{
+  width: 35%;
+  margin-bottom:10px;
+}
+
+.signBtn{
+  margin-top: 20px;
+  width:8%;
+  width: 20%; max-width: 500px;
+}
+
+@media (max-width: 992px) {
+
+  .description {
+    width: 800px;
+  }
+  .title {
+    width: 700px;
+  }
+
+  .HOME{
+    margin-top: 20px;
+  }
+  .container-fluid{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+  }
+
+    .navbar-brand {
+      margin-right: auto; /* Adjust margin for smaller screens */
+    }
+    
+    .SignInButton {
+      margin-left: 0; /* Reset margin for smaller screens */
+    }
+  
+    /* Adjust form input width */
+    .searchMenu {
+      margin: 20px 0;
+      width: 40rem; /* Use auto width for responsiveness */
+    }
+
+  }
+  
+  @media (max-width: 768px) {
+
+    .container-fluid{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+  
+    }
+
+    .description {
+      width: 560px;
+    }
+    .title {
+      width: 500px;
+    }
+  
+      .navbar-brand {
+        margin-right: auto; /* Adjust margin for smaller screens */
+      }
+      
+      .SignInButton {
+        margin-left: 0; /* Reset margin for smaller screens */
+      }
+    
+      /* Adjust form input width */
+      .searchMenu {
+        margin: 20px 0;
+        width: 30rem; /* Use auto width for responsiveness */
+      }
+
+    }
+
+    @media (max-width: 576px) {
+
+      .description {
+        width: 300px;
+      }
+      .title {
+        width: 250px;
+      }
+
+      .container-fluid{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    
+      }
+    
+        .navbar-brand {
+          margin-right: auto; /* Adjust margin for smaller screens */
+        }
+        
+        .SignInButton {
+          margin-left: 0; /* Reset margin for smaller screens */
+        }
+      
+        /* Adjust form input width */
+        .searchMenu {
+          margin: 20px 0;
+          width: 20rem; /* Use auto width for responsiveness */
+        }
+  
+      }
+  
+    
+  @media (max-width: 576px) {
+
+    nav{
+      height: auto;
+    }
+
+    .form-control {
+      width: 20em !important; 
+      margin-bottom: 10px; /* Add some margin to separate form input from buttons */
+    }
+  
+    .navbar-collapse {
+      flex-direction: column; /* Stack nav items vertically */
+    }
+  
+    .navbar-nav {
+      flex-direction: column; /* Stack nav items vertically */
+    }
+  
+  
+    .SignButton {
+      margin-bottom: 5px;
+    }
+  }
